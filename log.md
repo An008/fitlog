@@ -85,6 +85,7 @@ Schedule: Tuesday, Thursday, Saturday.
 | date | kcal | protein_g | fat_g | carbs_g | steps | note |
 |------|------|-----------|-------|---------|-------|------|
 | 2026-09-01 | 1900 | 153 | 52 | 222 | 21056 | 21k-step day — 1900 was if anything under-eating |
+| 2026-09-02 | 1540 | 160 | 28 | 156 | 13103 | approx — 1388 logged plus 2 apples. Fat well under the 50 g floor. Fix by front-loading fat earlier in the day, not by eating late. |
 
 ---
 
