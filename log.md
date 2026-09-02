@@ -39,8 +39,7 @@ Waist at navel. If two readings differ, record the **higher** one.
 
 | date | weight_kg | waist_navel_cm | waist_belt_cm | note |
 |------|-----------|----------------|---------------|------|
-| 2026-07-25 | | 93.5 | | waist only |
-| 2026-08-25 | 72.6 | | | weight only |
+| 2026-07-25 | 72.6 | 93.5 | | |
 | 2026-08-30 | 71.8 | 93.0 | 88.0 | belt-line reading approximate |
 | 2026-09-06 | | | | scheduled |
 
@@ -191,5 +190,5 @@ Anthropometrics at baseline: height 164–165 cm, age 40, male.
 | date | observation |
 |------|-------------|
 | 2026-09-01 | Conditions dominate run quality more than fitness does. Fasted + cold + early = higher HR, worse session (2026-08-25). Evening + fed + warm = best session so far (2026-09-01). |
-| 2026-09-01 | Waist fell 93.5 → 93.0 between 2026-07-25 and 2026-08-30 while weight stayed flat. That is recomposition. Weight was the wrong instrument to judge the summer by. |
+| 2026-09-01 | Between 2026-07-25 and 2026-08-30: weight 72.6 → 71.8 kg (-0.8), waist 93.5 → 93.0 cm (-0.5). Both moving, slowly and together. ~0.15 kg/week — under the 0.4 target, so the summer deficit was smaller than intended. |
 | 2026-09-02 | Normal daily steps 10–14k. 2026-09-01's 21k was unusual and does not change the TDEE estimate. |
