@@ -1,61 +1,100 @@
 # fitlog
 
-Training and nutrition log. Reverse-chronological — newest entry at the top of each section.
+Training and nutrition log for NC. Every row carries an ISO date (`YYYY-MM-DD`).
+Tables are append-only and **chronological, oldest first** — so a later dashboard
+can parse them in order without sorting.
 
-**Started:** 2026-09-01
+**Started:** 2026-09-01 · **Last updated:** 2026-09-02
 
----
-
-## Targets
-
-| | |
-|---|---|
-| Calories | 1800 /day |
-| Protein | 140 g (floor, aim 140–160) |
-| Fat | 60 g (never below 50) |
-| Carbs | ~175 g (remainder) |
-
-- TDEE estimate: ~2200 kcal. Unverified — recheck against waist trend after 3 weeks.
-- Target rate: 0.4 kg/week
-- Goal: waist ~83 cm, <20% body fat, lean mass maintained
-- Timeline: 14–20 weeks depending on sleep
+Conventions:
+- Dates are ISO `YYYY-MM-DD`. No relative dates anywhere in this file.
+- Blank cell = not recorded. `—` = not applicable.
+- Units are fixed per column and never restated in cells.
+- One observation per row. Never overwrite a row; append a correction as a new row.
 
 ---
 
-## Measurements
+## 1. Targets
 
-Weight: daily, morning, post-toilet, after one coffee. Read the 7-day average, not the day.
-Waist: Sunday mornings, at navel. Always record the higher reading if unsure.
+Current as of 2026-09-01. Superseded targets move to §8.
 
-| Date | Weight (kg) | Waist (cm) | Note |
-|------|-------------|------------|------|
-| 2026-09-02 | 72.2 | — | |
-| 2026-09-01 | 71.8 | 93.0 | Baseline |
-| 2026-07-25 | — | 93.5 | Earlier reading |
+| Metric | Target | Note |
+|--------|--------|------|
+| Calories | 1800 kcal/day | Weekly average is what counts, not the day |
+| Protein | 140 g/day | Floor, not a target. Aim 140–160 |
+| Fat | 60 g/day | Never below 50 |
+| Carbs | ~175 g/day | Remainder of the budget |
+| TDEE (est.) | 2200 kcal | **Unverified.** Recheck against waist trend after 2026-09-22 |
+| Rate | 0.4 kg/week | Faster costs lean mass |
 
----
-
-## Runs
-
-| Date | Type | Dist | Avg pace | Avg HR | Max HR | Cadence | Note |
-|------|------|------|----------|--------|--------|---------|------|
-| 2026-09-01 | easy, continuous | 5.0 km | 8:29 | 137 | 150 | 164 | 41:07 run / 1:23 walk. Evening, fed, warm. Held 137 continuously for 42 min. 21k steps that day (unusual). |
-| 2026-08-31 | run/walk | 5.0 km | 8:49 | 136 | 153 | — | 31:01 run / 20:34 walk. Walked to hold HR ≤145. |
-| 2026-08-27 | easy | 5.0 km | 7:45 | 143 | — | Comfortable, nasal breathing |
-| 2026-08-25 | trail attempt | 2.37 km | 7:50 | 146 | — | Sore, no warm-up, fasted, cold, early. Cut short. |
-
-**HR working range:** unresolved. Continuous 42 min at 137 is proven possible when fed/warm/evening — earlier claim that HR won't stay under 145 continuously does not hold under good conditions.
-**Cadence:** 164, slightly low. Nudge toward 170 in short blocks — free efficiency, less shin load.
-**Conditions matter more than expected:** fasted/cold/early = higher HR, worse session. Evening + fed = best runs so far.
-**Pending:** 30-min field test for LTHR. Do on a day the shins are quiet.
+Goal: waist ~83 cm, body fat <20%, lean mass maintained or gained.
+Projected: 14–20 weeks from 2026-09-01 → mid-Dec 2026 to mid-Jan 2027.
 
 ---
 
-## Strength
+## 2. Weekly measurements
 
-Weeks 1–2 — daily, ~10 min. Goal is never missing, not progressing.
+Protocol: Sunday morning, post-toilet, after one coffee, nothing else consumed.
+Waist at navel. If two readings differ, record the **higher** one.
 
-| # | Exercise | Weight | Sets × Reps |
+| date | weight_kg | waist_navel_cm | waist_belt_cm | note |
+|------|-----------|----------------|---------------|------|
+| 2026-07-25 | | 93.5 | | |
+| 2026-08-30 | | 93.0 | 88.0 | belt-line reading approximate |
+| 2026-09-04 | | | | scheduled |
+
+Next scheduled: **2026-09-04**, then weekly.
+
+---
+
+## 3. Daily weight
+
+Protocol: every morning, post-toilet, after one coffee. Read the 7-day average,
+never the single day.
+
+| date | weight_kg | note |
+|------|-----------|------|
+| 2026-09-01 | 71.8 | baseline |
+| 2026-09-02 | 72.2 | no bowel movement previous day — gut contents, not fat |
+
+---
+
+## 4. Runs
+
+| date | type | dist_km | avg_pace | avg_hr | max_hr | cadence_spm | run_min | walk_min | kcal | note |
+|------|------|---------|----------|--------|--------|-------------|---------|----------|------|------|
+| 2026-08-25 | trail attempt | 2.37 | 7:50 | 146 | | | | | | fasted, cold, early, sore, no warm-up — cut short |
+| 2026-08-27 | easy | 5.00 | 7:45 | 143 | | | | | | comfortable, nasal breathing throughout |
+| 2026-08-31 | run/walk | 5.00 | 8:49 | 136 | 153 | | 31.0 | 20.6 | | walked to hold HR ≤145 |
+| 2026-09-01 | easy continuous | 5.00 | 8:29 | 137 | 150 | 164 | 41.1 | 1.4 | 294 | evening, fed, warm. Held 137 continuously 42 min |
+
+Schedule: Tuesday, Thursday, Saturday.
+
+---
+
+## 5. Strength sessions
+
+| date | session | movements_completed | note |
+|------|---------|---------------------|------|
+| | | | none logged yet |
+
+---
+
+## 6. Macros
+
+| date | kcal | protein_g | fat_g | carbs_g | steps | note |
+|------|------|-----------|-------|---------|-------|------|
+| 2026-09-01 | 1900 | 153 | 52 | 222 | 21056 | 21k-step day — 1900 was if anything under-eating |
+
+---
+
+## 7. Programme
+
+### Weeks 1–2 (from 2026-09-01) — habit phase
+
+Daily, ~10 min. Goal is never missing, not progressing. No added weight or reps.
+
+| # | exercise | weight | sets × reps |
 |---|----------|--------|-------------|
 | 1 | Goblet squat | 10 kg | 3 × 10 |
 | 2 | Push-ups | BW | 3 × 12 |
@@ -64,38 +103,23 @@ Weeks 1–2 — daily, ~10 min. Goal is never missing, not progressing.
 
 Rest 60s. After the run on run days, never before.
 
-### Trigger version (preferred — worked before)
+### Trigger version — preferred, has worked before
 
-| Trigger | Movement |
+| trigger | movement |
 |---------|----------|
-| After each pee | 5 push-ups |
+| After each pee | 5 push-ups (pull-ups also fine — near failure at max 3) |
 | Before each meal | 20 push-ups |
 | Passing the bar | Dead hang 25s |
 | Before bed | Goblet squat ×10, dead bug ×8/side |
 
-### Sessions
+Note: push-up singles are useless (too far from failure at max 25). Pull-up
+singles are not — 1–2 reps at a max of 3 is a real stimulus.
 
-| Date | Done | Note |
-|------|------|------|
-| — | — | No strength sessions logged yet. |
-
----
-
-## Constraints
-
-- **Left shoulder** — old clavicle break, poor surgical result, no rehab. Restricted and painful at end range overhead. No loaded overhead pressing. Thrusters press to forehead height only. Physio not yet booked.
-- **Shins** — flare with faster running. Load-tolerance issue, not fitness. Abort sessions if they start talking.
-- **Sleep** — 5–6h, bed 00:00–02:00. Biggest limiter on the whole plan. Highest-leverage fix available.
-
----
-
-## Program (from week 3)
-
-Alternating A/B, daily.
+### From week 3 — alternating A/B, daily
 
 **Day A — pull/legs**
 
-| Exercise | Sets × Reps |
+| exercise | sets × reps |
 |----------|-------------|
 | Goblet squat | 4 × 12 |
 | Renegade row | 3 × 8/side |
@@ -104,7 +128,7 @@ Alternating A/B, daily.
 
 **Day B — push/power**
 
-| Exercise | Sets × Reps |
+| exercise | sets × reps |
 |----------|-------------|
 | DB thruster | 4 × 10 |
 | Push-up (explosive last set) | 4 × 12 |
@@ -119,8 +143,52 @@ Progression: add reps to top of range, then add weight, reset reps.
 
 ---
 
-## Macros log
+## 8. Baseline tests
 
-| Date | kcal | P | F | C | Note |
-|------|------|---|---|---|------|
-| 2026-09-01 | 1900 | 153 | 52 | 222 | Target 1800, but 21k-step day — 1900 was if anything under. Protein good, fat at the low end, extra carbs correctly placed on a high-movement day. |
+| date | test | result |
+|------|------|--------|
+| 2026-09-01 | Max push-ups | 25 |
+| 2026-09-01 | Max pull-ups | 3 |
+| 2026-09-01 | Plank hold | 50+ s |
+| 2026-09-01 | Bodyweight squats / 60s | 40–45 |
+| 2026-09-01 | Dead hang (gym bar, thin) | 40+ s |
+| 2026-09-01 | Dead hang (home bar, thick foam) | ~30 s |
+| 2026-09-01 | Toe touch, slow and controlled | reaches ankles only |
+| 2026-09-01 | Overhead reach supine, right | full, elbow and hand to floor |
+| 2026-09-01 | Overhead reach supine, left | restricted, elbow elevated, pain at end range |
+| 2026-09-01 | Max pike push-ups | not tested |
+| 2026-09-01 | Single-leg balance, eyes closed | not tested |
+
+Anthropometrics at baseline: height 164–165 cm, age 40, male.
+
+---
+
+## 9. Constraints
+
+| constraint | detail | status |
+|------------|--------|--------|
+| Left shoulder | Old clavicle fracture, surgical repair with poor result, no rehab. Left side favoured for years. Restricted and painful at end-range overhead. | No loaded overhead pressing. Thrusters to forehead height only. Physio not booked. |
+| Shins | Flare with faster running. Load-tolerance issue, not fitness. | Abort a session if they start talking. Gates the 30-min test. |
+| Sleep | 5–6 h. Bed 00:00–02:00, wake 06:00–08:00. | Biggest limiter on the whole plan. Highest-leverage fix available. |
+
+---
+
+## 10. Open items
+
+| item | status |
+|------|--------|
+| 30-min field test for LTHR | Pending. Do on a day the shins are quiet. Method: 15 min warm-up, run 30 min hard and even, lap at 10:00, avg HR of minutes 10–30 = LTHR. |
+| HR zones | Unresolved. Estimates have ranged 128–150 for zone 2. 140 is safe under every reading. Continuous 42 min at 137 is proven possible when fed, warm, evening. |
+| Cadence | 164, slightly low. Nudge toward 170 in short blocks — efficiency gain and less shin load. |
+| TDEE verification | Recheck after 2026-09-22. If waist hasn't moved on honest logging, drop to 1650 kcal. |
+| Physio for left shoulder | Not booked. Determines whether overhead work is permanently excluded or trainable. |
+
+---
+
+## 11. Observations
+
+| date | observation |
+|------|-------------|
+| 2026-09-01 | Conditions dominate run quality more than fitness does. Fasted + cold + early = higher HR, worse session (2026-08-25). Evening + fed + warm = best session so far (2026-09-01). |
+| 2026-09-01 | Waist fell 93.5 → 93.0 between 2026-07-25 and 2026-08-30 while weight stayed flat. That is recomposition. Weight was the wrong instrument to judge the summer by. |
+| 2026-09-02 | Normal daily steps 10–14k. 2026-09-01's 21k was unusual and does not change the TDEE estimate. |
