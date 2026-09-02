@@ -39,11 +39,12 @@ Waist at navel. If two readings differ, record the **higher** one.
 
 | date | weight_kg | waist_navel_cm | waist_belt_cm | note |
 |------|-----------|----------------|---------------|------|
-| 2026-07-25 | | 93.5 | | |
-| 2026-08-30 | | 93.0 | 88.0 | belt-line reading approximate |
-| 2026-09-04 | | | | scheduled |
+| 2026-07-25 | | 93.5 | | waist only |
+| 2026-08-25 | 72.6 | | | weight only |
+| 2026-08-30 | 71.8 | 93.0 | 88.0 | belt-line reading approximate |
+| 2026-09-06 | | | | scheduled |
 
-Next scheduled: **2026-09-04**, then weekly.
+Next scheduled: **2026-09-06**, then weekly on Sundays.
 
 ---
 
