@@ -1,0 +1,2 @@
+# fitlog
+info dump
