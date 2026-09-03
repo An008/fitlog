@@ -56,6 +56,7 @@ never the single day.
 |------|-----------|------|
 | 2026-09-01 | 71.8 | baseline |
 | 2026-09-02 | 72.2 | no bowel movement previous day — gut contents, not fat |
+| 2026-09-03 | 71.7 | |
 
 ---
 
