@@ -4,7 +4,7 @@ Training and nutrition log for NC. Every row carries an ISO date (`YYYY-MM-DD`).
 Tables are append-only and **chronological, oldest first** — so a later dashboard
 can parse them in order without sorting.
 
-**Started:** 2026-09-01 · **Last updated:** 2026-09-02
+**Started:** 2026-09-01 · **Last updated:** 2026-09-03
 
 Conventions:
 - Dates are ISO `YYYY-MM-DD`. No relative dates anywhere in this file.
@@ -68,6 +68,7 @@ never the single day.
 | 2026-08-27 | easy | 5.00 | 7:45 | 143 | | | | | | comfortable, nasal breathing throughout |
 | 2026-08-31 | run/walk | 5.00 | 8:49 | 136 | 153 | | 31.0 | 20.6 | | walked to hold HR ≤145 |
 | 2026-09-01 | easy continuous | 5.00 | 8:29 | 137 | 150 | 164 | 41.1 | 1.4 | 294 | evening, fed, warm. Held 137 continuously 42 min |
+| 2026-09-03 | tempo (Runna) | 4.18 | 6:35 | 156 | 178 | | 27.5 | 0.1 | | No warm-up — went straight into effort. HR peaked 175 in first 10 min, then settled and drifted DOWN to a steady ~157 for the back half. 12k steps on the day including the run. Shins ok. |
 
 Schedule: Tuesday, Thursday, Saturday.
 
@@ -179,8 +180,8 @@ Anthropometrics at baseline: height 164–165 cm, age 40, male.
 
 | item | status |
 |------|--------|
-| 30-min field test for LTHR | Pending. Do on a day the shins are quiet. Method: 15 min warm-up, run 30 min hard and even, lap at 10:00, avg HR of minutes 10–30 = LTHR. |
-| HR zones | Unresolved. Estimates have ranged 128–150 for zone 2. 140 is safe under every reading. Continuous 42 min at 137 is proven possible when fed, warm, evening. |
+| 30-min field test for LTHR | Lower priority after 2026-09-03 gave a usable estimate. Still worth doing properly for a clean number. Method: 15 min warm-up, run 30 min hard and even, lap at 10:00, avg HR of minutes 10–30 = LTHR. Do on a day the shins are quiet. |
+| HR zones | **Largely resolved by the 2026-09-03 tempo.** Held avg 156 for 27:33 with HR drifting down in the back half — that is a de facto threshold effort. Estimated **LTHR 158–162**, giving zone 2 ≈ **128–145**, zone 3 ≈ 146–151, threshold ≈ 156–162. The nasal-breathing evidence was right; the age-formula estimate (zone 2 ceiling 139) was too low. Train easy at 138–145. |
 | Cadence | 164, slightly low. Nudge toward 170 in short blocks — efficiency gain and less shin load. |
 | TDEE verification | Recheck after 2026-09-22. If waist hasn't moved on honest logging, drop to 1650 kcal. |
 | Physio for left shoulder | Not booked. Determines whether overhead work is permanently excluded or trainable. |
@@ -194,3 +195,4 @@ Anthropometrics at baseline: height 164–165 cm, age 40, male.
 | 2026-09-01 | Conditions dominate run quality more than fitness does. Fasted + cold + early = higher HR, worse session (2026-08-25). Evening + fed + warm = best session so far (2026-09-01). |
 | 2026-09-01 | Between 2026-07-25 and 2026-08-30: weight 72.6 → 71.8 kg (-0.8), waist 93.5 → 93.0 cm (-0.5). Both moving, slowly and together. ~0.15 kg/week — under the 0.4 target, so the summer deficit was smaller than intended. |
 | 2026-09-02 | Normal daily steps 10–14k. 2026-09-01's 21k was unusual and does not change the TDEE estimate. |
+| 2026-09-03 | Tempo run errors to avoid repeating: no warm-up, and the first 10 min were run at interval intensity (peak 175) rather than tempo. Correct shape is 10 min easy, 15–20 min at 150–156, 5–10 min easy. |
