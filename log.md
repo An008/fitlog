@@ -4,7 +4,7 @@ Training and nutrition log for NC. Every row carries an ISO date (`YYYY-MM-DD`).
 Tables are append-only and **chronological, oldest first** — so a later dashboard
 can parse them in order without sorting.
 
-**Started:** 2026-09-01 · **Last updated:** 2026-09-03
+**Started:** 2026-09-01 · **Last updated:** 2026-09-04
 
 Conventions:
 - Dates are ISO `YYYY-MM-DD`. No relative dates anywhere in this file.
@@ -57,6 +57,7 @@ never the single day.
 | 2026-09-01 | 71.8 | baseline |
 | 2026-09-02 | 72.2 | no bowel movement previous day — gut contents, not fat |
 | 2026-09-03 | 71.7 | |
+| 2026-09-04 | 72.2 | day after tempo run — glycogen and water retention from repair |
 
 ---
 
@@ -88,6 +89,7 @@ Schedule: Tuesday, Thursday, Saturday.
 |------|------|-----------|-------|---------|-------|------|
 | 2026-09-01 | 1900 | 153 | 52 | 222 | 21056 | 21k-step day — 1900 was if anything under-eating |
 | 2026-09-02 | 1540 | 160 | 28 | 156 | 13103 | approx — 1388 logged plus 2 apples. Fat well under the 50 g floor. Fix by front-loading fat earlier in the day, not by eating late. |
+| 2026-09-03 | 2021 | 165 | 47 | 241 | 12000 | tempo day, allowance was ~2000. Fat under floor for the third day running (52/28/47) — likely cause of persistent hunger. |
 
 ---
 
